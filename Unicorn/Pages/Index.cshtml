@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="cuerpo">
+    <div class="contenedor">
+        <div class="titulo">¿Cuál es tu nombre de unicornio?</div>
+      
+        <form method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombre</span>
+                    <input asp-for="nombre" type="text" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Mes de Nacimiento</span>
+                    <select asp-for="mes" required>
+                        <option value="" disabled selected class="disabled-texto">Selecciona tu mes de nacimiento</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="espacio-boton">
+                <input class="boton" type="submit" value="Calcular" />
+            </div>
+
+            @if (Model.formSubmitted)
+            {
+
+                <div class="contenedor-respuesta">
+                    <br />
+                    <p class="error">@ViewData["MensajeError"]</p>
+                    <div class="textito">@ViewData["Textito"]</div>
+                    <div class="nombre-unicornio">@Model.nombreUnicornio</div>
+
+                    @if (Model.showImage)
+                    {
+                        <div class="espacio-imagen">
+                            <img class="imagencita" src="/imagenes/unicornio.png" />
+                        </div>
+                    }
+                </div>
+            }
+        </form>
+    </div>
+</div>
+

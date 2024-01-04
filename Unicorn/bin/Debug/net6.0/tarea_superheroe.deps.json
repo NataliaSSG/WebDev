@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tarea_superheroe/1.0.0": {
+        "runtime": {
+          "tarea_superheroe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tarea_superheroe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
