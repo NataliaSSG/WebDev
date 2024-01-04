@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/new-walt-disney-font');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    margin: 0;
+    background: linear-gradient(145deg,#F199D6, #C79CFF);
+}
+
+.cuerpo {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    max-width: 900px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px 35px;
+    border-radius: 5px;
+}
+
+.contenedor .titulo {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contenedor form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100%/2 - 20px);
+}
+
+.user-details .input-box input, select {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.espacio-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.boton {
+    background: linear-gradient(145deg,#F199D6, #C79CFF);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+
+.boton:hover {
+   background: #F199D6;
+}
+
+.boton:active {
+   background: #E494CA;
+}
+
+.contenedor-respuesta {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #FF54CA;
+}
+
+.textito {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nombre-unicornio {
+    display: flex;
+    justify-content: center;
+    font-family: 'New Walt Disney Font', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: 80px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(145deg,#FF6FF1, #7471FF, #D988FF);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.espacio-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.imagencita {
+    width: 450px;
+}
