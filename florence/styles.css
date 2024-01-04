@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.barraNav {
+    background-color:  #D6ADD1;
+    display: flex;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 45px; 
+}
+
+.barraNavObjeto {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.barraNavObjeto:hover {
+    font-weight: bolder;
+    background-color: #bc8eb7;
+}
+
+.titulo {
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* ******************* HOME ******************* */
+
+.banda {
+    color: #D6ADD1;
+    font-size: 80px; 
+    font-family: 'Cinzel', serif;
+}
+
+.fondo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.imagen {
+    width: 1100px;
+}
+
+/* ******************* ALBUMS ******************* */
+
+.barraNavAlbums {
+    background-color: #D1B17A;
+}
+
+.barraNavAlbumsObjeto:hover {
+    background-color: hsl(38, 32%, 55%);
+}
+
+.topAlbums {
+    color: #D1B17A;
+    font-size: 80px; 
+    font-family: 'Cinzel', serif;
+}
+
+.contenedorAlbums {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.album {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 33%;
+}
+
+.fotito {
+    height: 280px;
+    border: 5px solid #D1B17A;
+}
+
+.titulosAlbums {
+    display: flex;
+}
+
+.tituloAlbum {
+    color: #D1B17A;
+    font-size: 25px;
+    font-family: 'Frank Ruhl Libre', serif;
+    width: 33%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration: none;
+}
+
+.tituloAlbum:hover {
+    font-weight: bolder;
+    color: #f8d291;
+}
+
+
+/* ******************* ABOUT ******************* */
+
+.barraNavAbout {
+    background-color: #e0a2a2;
+}
+
+.barraNavAboutObjeto:hover {
+    background-color: #c99393;
+}
+
+.contenedorColumnas {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 800px;
+}
+  
+.columnaIzq {
+    width:70%;
+    background-color: #000000; 
+}
+  
+.columnaDer {
+    width:30%;
+    background-color: #000000; 
+    margin: 70px;
+}
+
+.tituloAbout {
+    color: #e0a2a2;
+    font-size: 50px; 
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: none;
+    padding: none;
+    background-color: #000000;
+    height: 90px;
+}
+
+.contenedorFoto {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.imagencita {
+    height: 750px;
+}
+
+.texto {
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    color: #e0a2a2;
+    text-align: center;
+    line-height: 170%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
